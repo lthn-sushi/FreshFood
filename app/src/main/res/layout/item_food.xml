@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_margin="5dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/itemFood">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/ivFoodImage"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_vegetables"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tvFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Food name"
+                android:fontFamily="@font/font_bold"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvFoodID"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Food ID"
+                android:fontFamily="@font/font" />
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvCategoryID"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Category ID"
+                android:fontFamily="@font/font" />
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvFoodPrice"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Food price"
+                android:fontFamily="@font/font" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/tvFoodNSX"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Ngày sản xuất"
+                    android:fontFamily="@font/font" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/tvFoodHSD"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Hạn sử dụng"
+                    android:fontFamily="@font/font"/>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/tvFoodAmount"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Food amount"
+                android:fontFamily="@font/font"/>
+<!--            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton-->
+<!--                android:id="@+id/number_button"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_marginRight="2dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                app:backGroundColor="@color/black"-->
+<!--                app:finalNumber="20"-->
+<!--                app:initialNumber="1"-->
+<!--                app:textColor="@color/green"-->
+<!--                app:textSize="8sp"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

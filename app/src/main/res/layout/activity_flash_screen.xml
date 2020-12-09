@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashScreen"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ivFlash"
+            android:layout_width="400dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/setting"
+            android:layout_centerHorizontal="true"
+            android:layout_height="400dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tvFreshFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivFlash"
+            android:fontFamily="@font/allfront"
+            android:text="Food Manager"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFreshFood"
+            android:layout_gravity="center"
+            android:fontFamily="@font/allfont_medium"
+            android:text="Effective food management"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

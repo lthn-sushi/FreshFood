@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder_sheet"
+    style="@style/AppBottomSheetDialogTheme"
+    android:orientation="vertical">
+    <View
+        android:layout_width="70dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/tvNewFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edFoodID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Food ID"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Food name"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/edFoodAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Food amount"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/edFoodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Food Price"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="@font/allfont_medium"
+            android:gravity="center"
+            android:id="@+id/tvNSX"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Date of manufacture"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_custom2"/>
+
+        <TextView
+            android:fontFamily="@font/allfont_medium"
+            android:gravity="center"
+            android:id="@+id/tvHSD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Expiry date"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_custom2"/>
+
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/spCategoryID"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_custom2"
+        android:text="Category ID"
+        android:padding="10dp"
+        android:spinnerMode="dialog"
+        android:textColor="@color/black"
+        android:textColorHint="@color/overlay_color"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/ivFoodImageChoose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add_file"
+            android:background="@drawable/btn_custom2"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/btnChooseFoodImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_custom2"
+            android:text="Choose an image"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>

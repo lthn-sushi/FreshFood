@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/ic_categories"
+        android:title="Category"
+        
+        />
+    <item
+        android:id="@+id/food"
+        android:icon="@drawable/ic_vegetable"
+        android:title="Food"
+        />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/statistical"
+        android:icon="@drawable/ic_statistical"
+        android:title="Statistical"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        />
+
+</menu>

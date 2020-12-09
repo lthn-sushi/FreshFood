@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_security"/>
+        <TextView
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allfront"
+            android:text="WELCOME BACK"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/allfont_medium"
+            android:text="Login to continue"
+            android:textColor="@color/green"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E M A I L"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P A S S W O R D"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:id="@+id/edPassword"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <CheckBox
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/chkSave"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Save password?" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L O G I N"
+            android:fontFamily="@font/allfront"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_button"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

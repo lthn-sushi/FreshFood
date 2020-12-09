@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "37669706572",
+    "firebase_url": "https://freshfood-e5fe5.firebaseio.com",
+    "project_id": "freshfood-e5fe5",
+    "storage_bucket": "freshfood-e5fe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37669706572:android:6230ff426d22937192cde9",
+        "android_client_info": {
+          "package_name": "com.kietnt.foodbuyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ge8M8UCchGt4pEh4f9wvUQf1h6zjOKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37669706572:android:4c10dcc9cde8da3292cde9",
+        "android_client_info": {
+          "package_name": "com.kietnt.freshfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ge8M8UCchGt4pEh4f9wvUQf1h6zjOKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37669706572:android:32bc41caa5cf0ae792cde9",
+        "android_client_info": {
+          "package_name": "com.nganlth.freshfoodadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ge8M8UCchGt4pEh4f9wvUQf1h6zjOKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37669706572:android:40a8e88489e54a8f92cde9",
+        "android_client_info": {
+          "package_name": "com.nganlth.kingfreshmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ge8M8UCchGt4pEh4f9wvUQf1h6zjOKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37669706572-cbohg1ud8juo45tprvuv3vr35j2gdjfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

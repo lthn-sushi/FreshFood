@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        style="@style/AppBottomSheetDialogTheme"
+        android:orientation="vertical">
+    <View
+        android:layout_width="150dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:layout_margin="30dp"
+        android:id="@+id/tvNewCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Category"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edCategoryIDEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Category ID"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edCategoryNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:hint="Category name"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/overlay_color"
+        android:background="@drawable/btn_custom2"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/ivCategoryImageChooseEdit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add_file"
+            android:background="@drawable/btn_custom2"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/btnChooseCategoryEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_custom2"
+            android:text="Change or keep"/>
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/bg_button"
+        android:id="@+id/btnUpdateCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp" />
+    </LinearLayout>
